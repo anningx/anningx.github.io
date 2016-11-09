@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css"  media="screen" href="../css/home.css" />
+<link rel="stylesheet" type="text/css"  media="screen" href="../css/contactUs.css" />
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/jMenu.jquery.js"></script>
+<script src="../js/home.js"></script>
+<script type="text/javascript" src="../js/contactUs.js"></script>
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+
+
+<script>
+
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+<title>contactUs</title>
+</head>
+
+<body>
+<div id="hear2">
+  <div id="header">
+    <div id="logo"><a href="../home.html"> <img src="../img/logo.gif" alt="" /></a> </div>
+    <div id="navigation">
+      <h2>Navigation</h2>
+      <ul id="jMenu">
+        <li><a href="newarrival.html">New Arrival</a></li>
+        <li><a href="bags.html">Bags</a>
+          <ul>
+            <li> <a href="backpack.html">Backpacks</a> </li>
+            <li> <a href="clutch.html">Clutches</a> </li>
+            <li> <a href="shoulderbag.html">Shoulder Bags</a> </li>
+            <li> <a href="wallet.html">Purses and Wallets</a> </li>
+          </ul>
+        </li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div id="main">
+      <h2>Contact Us!</h2>
+      <div id="us">
+        <p>Address: 100 Collin Street, Doncaster, VIC3144, Australia</p>
+        <p>Email:customerservice@sunup.com</p>
+        <p>Contact Number:+61 405 291 866</p>
+      </div>
+      <div id="form">
+        <form id="contact" action="" onsubmit="checkContactForm(); return false;">
+          <p id="fillmsg">Fill in the form below to send us a message!</p>
+          <p>
+            <label for="firstname">First name: *</label>
+            <br/>
+            <input type="text" name="firstname" id="firstname" onfocus="resetField(this);" />
+          </p>
+          <p>
+            <label for="lastname">Last name: *</label>
+            <br/>
+            <input type="text"name="lastname" id="lastname" onfocus="resetField(this);" />
+          </p>
+          <p>
+            <label for="email">E-mail address: *</label>
+            <br/>
+            <input type="text" name="email" id="email" onfocus="resetField(this);" />
+          </p>
+          <p>
+            <label for="subject">Subject: *</label>
+            <br/>
+            <select>
+              <option value="selectsubject">Please Select A Subject</option>
+              <option value="1">orders</option>
+              <option value="2">return and exchange</option>
+              <option value="3">feedback</option>
+              <option value="4">sotre information</option>
+              <option value="5">job opportunity</option>
+              <option value="6">press media</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Your Message: *</label>
+            <br/>
+            <textarea type="text" name="message" id="message" onfocus="resetField(this);"></textarea>
+          </p>
+          <p>
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset Form</button>
+          </p>
+        </form>
+      </div>
+      <br />
+      <div id="googleMap" style="width:400px;height:168px;"></div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <p> <a href="">Contact us</a> / <a href="">Privacy Policy</a> / <a href="">Terms of service</a> &copy; Copyright 2014 ANNING XIANG &amp; FENGYU GAO      
+    Follow us on: <a href="http://www.facebook.com"><img src="../img/button/Social-Network-Facebook-icon.png" alt="" height="30px" width="30px"  /></a> <a href="http://twitter.com"><img src="../img/button/twitter-icon.png" height="30px" width="30px" alt="" /></a> <a href=""><img src="../img/button/google-plus-icon.png" height="30px" width="30px" alt="" /></a> <a href=""><img src="../img/button/Weibo-icon.png" height="30px" width="30px" alt="" /></a></p>
+</div>
+</body>
+</html>
