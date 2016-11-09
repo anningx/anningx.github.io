@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productTable
+{
+	min-height:650px;
+}
+
+#container img{
+	width:225px;
+	height:300px;
+}
+
+
+#container{
+	padding:30px;
+}
+
+#container .mix{
+	display: none;
+	margin-right:10px;
+	text-align:center;
+}
+
+#extra{
+	padding:20px;
+}
+
+td{
+	vertical-align:top;
+}
+
+#main{
+}
+
+button{
+	height:45px;
+	width:100px;
+	background-color: transparent;
+	border:solid 0px #FFFFFF;
+	font-family:'Poiret One', cursive;
+	font-size:14px;
+	color:black;
+	font-weight:bold;
+}
+
+button:focus{
+	border: none;
+	outline:0;
+	color:#F96;
+}
+
+

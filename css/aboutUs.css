@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+	font-size:24px;
+	margin-top:20px;
+	}
+	
+#designer{
+    float:left;
+	marign-left:20px;
+	padding-right:20px;
+	}
+#designer img{
+	width:80%;
+	height:80%;
+	}	
+	
+#slogan {
+	float:left;
+	margin-top:-300px;
+	margin-left:420px;
+	}
+#slogan p{
+	text-align:right;}	
+	
+#story {
+	width:664px;
+	padding-left:180px;
+	padding-right:180px;
+	}
+
+#story img{
+	width:80%;
+	height:80%;
+	padding-left:50px;
+	}

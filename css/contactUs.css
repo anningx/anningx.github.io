@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#content h3{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 100%;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#content #main {
+	padding-top:50px;
+}
+	
+#content #us{
+	height:120px;
+	width:500px;
+	float:left;
+	margin-left:24px;;
+	
+}
+
+#content #form{
+	height:420px;
+	width:500px;
+	float:left;
+	top:auto;
+	left:auto;
+}
+
+#contact input{
+	width: 350px;	
+}
+
+#content #googleMap{
+	folat:left;
+	top:-300px;
+}
+
+
+#fillmsg {
+	font-style:italic;
+}
+
+#googleMap {
+	padding-left:50px;
+}

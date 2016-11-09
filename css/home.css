@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	width:100%;
+	position:relative;
+	margin:auto;
+	background-color:#fffcf9;
+}
+
+body
+{
+}
+
+#header
+{
+	width:100%;
+	height:108px;
+	top:0px;
+	left:0px;
+	position: fixed;
+	background-color:#fff;
+	z-index:2;
+}
+
+#logo
+{
+	width: 170px;
+	position:absolute;
+	top:20px;
+	left:10%;
+	margin:0,0,0,-465px;
+}
+
+#navigation
+{
+	width:900px; 
+	padding-top:20px;
+	position:absolute;
+	left:23%;
+}
+
+#jMenu{ 
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	padding-top:15px;
+	padding-left:20px;
+	alignment-adjust:central;
+	display: table;
+	list-style: none;
+	width:900px; 
+
+}
+
+#jMenu li{
+	display:table-cell;
+	text-align:center;
+	margin: 0;
+	width:20%;
+	list-style: none;
+	background-color:transparent;
+	}
+
+#jMenu li a{
+	text-decoration:none;
+	padding: 10px 15px;
+	display: block;
+	background-color: transparent;
+	color: #FF9933;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	}
+
+#jMenu li ul {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#jMenu li ul li {
+	width:180px;
+	text-align:center;
+	background-color: #fff;
+	display: block;
+	border-bottom: 1px solid transparent;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+#jMenu li ul li a {
+	font-size: 17px;
+	font-weight:bold;
+	text-transform: none;
+	display: block;
+	padding: 7px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+#jMenu a:hover{
+	color:#ff6600;
+}
+
+#navigation h2 {
+			display:block;
+			width:0; height:0;
+			overflow:hidden;
+			position:absolute;
+}
+
+#content{
+	position:relative;
+	top:120px;
+	margin-top:125px;
+	min-height:700px;
+	width:1024px;
+	background-color:#FFF;
+	margin:auto;
+	margin-top:10px;
+
+}
+
+
+#main
+{
+	
+}
+
+#footer
+{
+	height:40px;
+	width:100%;
+	position:relative;
+	top:110px;
+	left:0px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FF9933;
+}
+
+#header2
+{
+	position:fixed;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family:'Poiret One', cursive;
+}
+
+

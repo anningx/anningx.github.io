@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+#poster{
+	padding:50px;
+}
+
+#posterSale{
+	padding-left:250px;
+}
+
+#main{
+	padding:40px;
+}
+
+table.newBags{
+
+}
+
+td.bags{
+	border:solid 30px;
+	border-color:transparent;
+}
+
+td.bags img{
+	height:300px;
+	width:225px;
+}
+
